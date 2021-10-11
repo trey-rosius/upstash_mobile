@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       theme: theme.copyWith(
         colorScheme: theme.colorScheme.copyWith(secondary:Color(0xFFf94c84) )
       ),
-      home: HomeScreen(),
+      home: CreateProfileScreen(),
     );
   }
 }

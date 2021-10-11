@@ -85,7 +85,7 @@ late Future<SharedPreferences> _prefs;
             floating: true,
             pinned: true,
             snap: false,
-            backgroundColor: Theme.of(context).colorScheme.secondary,
+            backgroundColor: Theme.of(context).primaryColor,
             flexibleSpace: FlexibleSpaceBar(
               stretchModes: <StretchMode>[
                 StretchMode.zoomBackground,
